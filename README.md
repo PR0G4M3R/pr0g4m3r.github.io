@@ -2,5 +2,4 @@
 Website 
 
 <DOCTYPE! HTML>
-
-This website is the first one I've hosted with Github
+<s> This website is the first one I've hosted with Github <s>
