@@ -40,7 +40,7 @@ head {
 body {
     background-colour: black;
     colour: #ffffff;
-    text-align: center;
+    left: 5;
     float: center;
 }
 
