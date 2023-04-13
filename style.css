@@ -29,7 +29,7 @@ body {
     background-color: black;
     background-image: url("Images/IMG-3280.PNG");
     color: #fff;
-    position: fixed;
+    position: absolute;
     text-align: center;
 }
 
