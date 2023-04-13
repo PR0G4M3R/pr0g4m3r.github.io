@@ -13,9 +13,10 @@ h2 {
 
 /*.left is for the image*/
 
-.left {
+.logo {
     display: block;
     float: left;
+    float: top;
     width: auto;
 }
 
