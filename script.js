@@ -1,3 +1,5 @@
+window.alert("Hello there!");
+
 document.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 's') {
       scrollBy(0,35)
