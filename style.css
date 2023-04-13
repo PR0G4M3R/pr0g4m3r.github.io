@@ -50,6 +50,8 @@ head {
 body {
     background-colour: black;
     colour: #ffffff;
+    text-align: center;
+    float: center;
 }
 
 footer {
