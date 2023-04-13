@@ -39,7 +39,7 @@ footer {
     left: 0;
     right: 0;
     background-color: black;
-    colour: #fff;
+    color: #fff;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ h1 {
 }
 
 ul {
-    text align: left;
+    text-align: left;
 }
 
 * {
