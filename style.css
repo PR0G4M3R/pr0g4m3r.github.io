@@ -28,7 +28,7 @@ h2 {
     width: auto;
 }
 
-table { border-collapse: collapse;
+.table { border-collapse: collapse;
 }
 th, td {
     width:150px;
