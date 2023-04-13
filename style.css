@@ -1,10 +1,10 @@
 /*.index is for the whole page*/
-.index {
+.title {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     background-color: #000000;
     color: #ffffff;
     border: solid 7px black;
-    text-align: center;
+    text-align: justify;
 }
 
 h2 {
