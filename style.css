@@ -43,3 +43,22 @@ footer {
     colour: #fff;
     text-align: center;
 }
+
+a:link {
+  color: #00B3FF;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
