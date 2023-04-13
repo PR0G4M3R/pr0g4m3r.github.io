@@ -8,11 +8,8 @@
     float: center;
 }
 
-h2 {
-    font-style: italic;
-}
 
-/*.left is for the image*/
+/*.logo is for the image*/
 
 .logo {
     display: block;
