@@ -21,6 +21,7 @@ title {
     display: block;
     float: left;
     width: auto;
+    position: absolute;
 }
 
 
