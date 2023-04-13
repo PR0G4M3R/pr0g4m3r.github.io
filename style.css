@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.list {
+  text-align: left;
+  }
+
 .page2 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     background-color: #000000;
