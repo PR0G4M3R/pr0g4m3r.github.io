@@ -2,7 +2,7 @@
 .title {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     background-color: black;
-    color: #ffffff;
+    color: #fff;
     border: solid 7px black;
     text-align: justify;
     float: center;
@@ -21,7 +21,7 @@
 
 body {
     background-color: black;
-    color: #ffffff;
+    color: #fff;
     left: 5;
     float: center;
 }
@@ -32,6 +32,5 @@ footer {
     left: 0;
     right: 0;
     background-color: black;
-    colour: #ffffff;
-    text-color: white;
+    colour: #fff;
 }
