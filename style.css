@@ -65,3 +65,7 @@ a:active {
 h1 {
     font-size: 50px;
 }
+
+ul {
+    text align: center;
+}
