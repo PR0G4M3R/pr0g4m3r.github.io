@@ -43,6 +43,11 @@ head {
     colour: #ffffff;
 }
 
+body {
+    background-colour: black;
+    colour: #ffffff;
+}
+
 footer {
     position: fixed;
     bottom: 0;
