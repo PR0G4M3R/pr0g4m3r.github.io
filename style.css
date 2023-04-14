@@ -31,11 +31,10 @@ html {
 
 .footer {
   text-size: 15px;
-  width: 100%;
   background: black;
   color: #fff;
   text-align: center;
-  align: bottom;
+  margin: 2rem;
 }
 
 /*.logo is for the image*/
