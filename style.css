@@ -15,7 +15,8 @@
   color: white;
   font-size: 3rem;
   text-align: center;
-  padding: 4rem;
+  padding: 2rem;
+  /*was 4*/
 }
 
 .title {
