@@ -1,46 +1,70 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    border: 0;
-    margin-block: 0;
-    margin-inline: 0;
+.container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: black;
+}
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+.cell-1 {
+  background: black;
+  width: 100px;
+}
+.cell-2 {
+  background: black;
+  width: 300px;
+}
+.cell-3 {
+  background: black;
+}
+.cell-4 {
+  background: black;
+  font size: 2rem;
+}
+.cell-5 {
+  background: black;
+  width: 100px;
+}
+.cell-6 {
+  background: black;
+  width: 100px;
+}
+.cell-7 {
+  background: black;
+}
+.cell-8 {
+  background: black;
+  width: 100px;
+}
+.cell-9 {
+  background: black;
 }
 
 title {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     background-color: black;
     color: #fff;
-    text-align: center;
-    float: center;
+    text-align: top;
+    
 }
 
 
 /*.logo is for the image*/
 
 .logo {
-    display: block;
-    float: left;
-    width: auto;
-    position: absolute;
+  position: left   
 }
-
 
 body {
     background-color: black;
     background-image: url("Images/IMG-3280.PNG");
-    color: #fff;
-    text-align: center;
-   
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    color: #fff;
-    text-align: center;
+        text-align: center;
 }
 
 a:link {
@@ -69,29 +93,4 @@ h1 {
 ul {
     text-align: left;
     padding-left: 0%;
-    float: left;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column1 {
-  float: right;
-  width: 25%;
-  padding: 10px;
-}
-
-.column2 {
-  float: left;
-  width: 75%;
-  padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
