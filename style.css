@@ -30,15 +30,10 @@ html {
 }
 
 .footer {
-  text-size: 15px;
+  font-size: 15px;
   background: black;
   color: #fff;
   text-align: center;
-}
-
-/*.logo is for the image*/
-
-.logo {
 }
 
 body {
