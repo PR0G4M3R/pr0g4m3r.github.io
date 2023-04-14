@@ -1,46 +1,15 @@
-.container {
-  height: 90vh;
+container {
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
 }
+
 .cell {
   color: white;
   font-size: 3rem;
   text-align: center;
   padding: 4rem;
-}
-.cell-1 {
-  width: 100px;
-}
-.cell-2 {
-;
-}
-.cell-3 {
-  background: black;
-}
-.cell-4 {
-  background: black;
-  font size: 2rem;
-}
-.cell-5 {
-  background: black;
-  width: 100px;
-}
-.cell-6 {
-  background: black;
-  width: 100px;
-}
-.cell-7 {
-  background: black;
-}
-.cell-8 {
-  background: black;
-  width: 100px;
-}
-.cell-9 {
-  background: black;
 }
 
 title {
@@ -48,38 +17,45 @@ title {
     background-color: black;
     color: #fff;
     text-align: top;
-    
 }
 
+.footer {
+  margin: 0 2rem;
+  background: black;
+  color: #fff
+}
+
+h2 {
+  color: black;
+}
 
 /*.logo is for the image*/
 
 .logo {
-  position: left   
 }
 
 body {
-    background-color: black;
-    background-image: url("Images/IMG-3280.PNG");
-        text-align: center;
+  background-color: black;
+  background-image: url("Images/IMG-3280.PNG");
+  text-align: center;
 }
 
 a:link {
   color: #00B3FF;
 }
 
-/* visited link */
-a:visited {
+
+/* selected link */
+a:active {
   color: #269300;
 }
 
-/* mouse over link */
 a:hover {
   color: #00B3FF;
 }
 
-/* selected link */
-a:active {
+/* visited link */
+a:visited {
   color: #269300;
 }
 
