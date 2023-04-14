@@ -2,7 +2,7 @@
   height: 90vh;
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 .cell {
@@ -15,7 +15,7 @@
   width: 100px;
 }
 .cell-2 {
-  width: 300px;
+;
 }
 .cell-3 {
   background: black;
