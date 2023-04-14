@@ -20,12 +20,8 @@
 
 .footer {
   margin: 0 2rem;
-  background: black;
+  background: black
   color: #fff;
-}
-
-h2 {
-  color: black;
 }
 
 /*.logo is for the image*/
