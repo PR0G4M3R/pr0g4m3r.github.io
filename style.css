@@ -18,7 +18,7 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
   .container {
     grid-template-columns: 1fr;
   }
@@ -111,4 +111,5 @@ table {
   text-align: center;
   align-content: center;
   max-width: 100%;
+  padding: 0.15em;
 }
