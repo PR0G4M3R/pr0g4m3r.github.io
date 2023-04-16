@@ -18,7 +18,7 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
   .container {
     grid-template-columns: 1fr;
   }
@@ -96,6 +96,13 @@ h2 {
 
 h3 {
  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  h3 {
+    width: fit-content;
+    height: fit-content;
+  }
 }
 
 h4 {
