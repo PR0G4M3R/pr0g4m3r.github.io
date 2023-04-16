@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 
@@ -33,7 +34,7 @@ html {
 }
 
 .footer {
-  font-size: 15px;
+  font-size: 15rem;
   background: black;
   color: #fff;
   text-align: center;
