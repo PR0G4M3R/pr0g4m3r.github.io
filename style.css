@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
 html {
@@ -13,6 +14,8 @@ html {
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .cell {
@@ -41,6 +44,7 @@ body {
   background-color: black;
   background-image: url("Images/IMG-3280.PNG");
   text-align: center;
+  width: 100%;
 }
 
 a:link {
@@ -70,10 +74,6 @@ h4 {
   font-size: 25px;
 }
 
-h5 {
-  font-size: 30px;
-}
-
 ul {
     /*text-align: left;*/
     padding-left: 0%;
@@ -87,4 +87,5 @@ li {
 table {
   text-align: center;
   align-content: center;
+  width: 100%;
 }
