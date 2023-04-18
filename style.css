@@ -18,26 +18,11 @@ html {
   /*overflow-x: hidden;*/
 }
 
-
-@media screen and (max-width: 767px) {
-  .container {
-    grid-template-columns: 1fr;
-    overflow-x: hidden;
-  }
-}
-
 .cell {
   color: white;
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
-}
-
-@media screen and (max-width: 767px) {
-  .cell {
-    text-align: left;
-    padding: 1.75rem;
-  }
 }
 
 .title {
@@ -50,14 +35,6 @@ html {
   max-width: 40%;
   width: auto;
   max-height: auto;
-}
-
-@media screen and (max-width: 767px) {
-  .logo {
-    max-width: 25%;
-    width: auto;
-    max-height: auto;
-  }
 }
 
 .footer {
@@ -113,26 +90,6 @@ h3 {
  font-size: 1.6rem;
 }
 
-@media screen and (max-width: 767px) {
-  
-  h1 {
-    font-size: 1.9rem;
-  }
-
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-}
-
 h4 {
  font-size: 1.4rem;
 }
@@ -156,5 +113,38 @@ table {
   text-align: left;
   align-content: left;
 }
+
+h1 {
+  font-size: 1.9rem;
+}
+
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.logo {
+    max-width: 25%;
+    width: auto;
+    max-height: auto;
+  }
+
+.container {
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+  }
+
+.cell {
+    text-align: left;
+    padding: 1.75rem;
+  }
 
 }
