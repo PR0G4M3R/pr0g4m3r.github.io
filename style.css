@@ -99,12 +99,24 @@ h3 {
  font-size: 1.6rem;
 }
 
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  
+  h1 {
+    width: fit-content;
+    height: fit-content;
+  }
+
+
+  h2 {
+    width: fit-content;
+    height: fit-content;
+  }
+
   h3 {
     width: fit-content;
     height: fit-content;
   }
-}*/
+}
 
 h4 {
  font-size: 1.4rem;
