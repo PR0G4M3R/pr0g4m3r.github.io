@@ -31,7 +31,6 @@ html {
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
-  /*was 4*/
 }
 
 @media screen and (max-width: 767px) {
@@ -120,5 +119,6 @@ table {
   text-align: center;
   align-content: center;
   max-width: 100%;
-  padding: 0.15em;
+  padding: 1em;
+  columns: 15em;
 }
