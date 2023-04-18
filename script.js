@@ -5,12 +5,12 @@ window.alert(alertMsg[Math.floor(Math.random() * alertMsg.length)]);
 
 document.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 's') {
-      scrollBy(0,35)
+      scrollBy(0,50)
   }
 });
 
 document.addEventListener('keydown', (e) => {
   if (e.key.toLowerCase() === 'w') {
-      scrollBy(0,-35)
+      scrollBy(0,-50)
   }
 });
