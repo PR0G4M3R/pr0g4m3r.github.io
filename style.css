@@ -107,6 +107,8 @@ table {
   column-gap: 1em;
 }
 
+
+/*IPHONE SE*/
 @media screen and (max-width: 767px) {
   
 table {
