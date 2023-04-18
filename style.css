@@ -99,12 +99,12 @@ h3 {
  font-size: 1.6rem;
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   h3 {
     width: fit-content;
     height: fit-content;
   }
-}
+}*/
 
 h4 {
  font-size: 1.4rem;
@@ -120,5 +120,5 @@ table {
   align-content: center;
   max-width: 100%;
   padding: 1em;
-  columns: 15em;
+  column-gap: 1em;
 }
