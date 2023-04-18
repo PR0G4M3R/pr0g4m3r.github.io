@@ -52,6 +52,14 @@ html {
   max-height: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .logo {
+    max-width: 25%;
+    width: auto;
+    max-height: auto;
+  }
+}
+
 .footer {
   font-size: 2rem;
   background: black;
