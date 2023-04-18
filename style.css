@@ -46,6 +46,12 @@ html {
     text-align: top;
 }
 
+.logo {
+  max-width: 40%;
+  width: auto;
+  max-height: auto;
+}
+
 .footer {
   font-size: 2rem;
   background: black;
