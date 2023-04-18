@@ -137,6 +137,7 @@ h4 {
     max-width: 25%;
     width: auto;
     max-height: auto;
+    align-self: center;
   }
 
 .container {
