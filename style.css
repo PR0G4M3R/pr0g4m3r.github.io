@@ -114,20 +114,20 @@ table {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 
 
 h2 {
-  font-size: 1.6rem;
-}
-
-h3 {
   font-size: 1.3rem;
 }
 
-h4 {
+h3 {
   font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.7rem;
 }
 
 
@@ -145,7 +145,7 @@ h4 {
 
 .cell {
     text-align: left;
-    padding: 1rem; /*was 1.7*/
+    padding: 1.7rem;
     align-content: left;
   }
 
