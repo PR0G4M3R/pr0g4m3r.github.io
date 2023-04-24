@@ -155,7 +155,7 @@ h4 {
   
   .cell-2{
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   
   .cell-3{
@@ -165,7 +165,7 @@ h4 {
   
   .cell-4{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: auto;
     height: auto;
     }
