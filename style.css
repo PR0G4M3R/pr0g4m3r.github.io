@@ -201,20 +201,7 @@ h4 {
 
 };
 
-.cell-1{
-  display: flex;
-}
 
-.cell-2{
-  display: flex;
-  justify-content: center;
-  text: wrap;
-}
-
-.cell-3{
-  display: flex;
-  justify-content: center;
-}
 
 .cell-4{
   display: flex;
@@ -249,7 +236,9 @@ h4 {
   display: flex;
   justify-content: center;
   font-size: 1rem;
+   1rem;
 };
+
 
 @media screen and (max-width: 775px) {
   
