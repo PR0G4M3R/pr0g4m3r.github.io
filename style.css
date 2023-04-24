@@ -37,6 +37,7 @@ html {
   max-width: 40%;
   width: auto;
   max-height: auto;
+  
 }
 
 .footer {
@@ -136,6 +137,7 @@ h4 {
     width: auto;
     max-height: auto;
     align-self: center;
+    justify-content: center;
   }
 
 .container {
@@ -146,7 +148,6 @@ h4 {
 .cell {
     text-align: left;
     padding: 1.7rem;
-    align-content: left;
   }
 
   .cell-1{
@@ -205,7 +206,7 @@ h4 {
 
 .cell-4{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: auto;
   height: auto;
   }
@@ -228,13 +229,13 @@ h4 {
 
 .cell-7{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-size: 1rem;
 }
 
 .cell-8{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-size: 1rem;
    1rem;
 };
