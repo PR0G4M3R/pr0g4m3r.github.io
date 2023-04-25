@@ -137,7 +137,6 @@ h4 {
     width: auto;
     max-height: auto;
     align-self: center;
-    justify-content: center;
   }
 
 .container {
@@ -152,7 +151,6 @@ h4 {
 
   .cell-1{
     display: flex;
-    justify-content: center;
   }
   
   .cell-2{
