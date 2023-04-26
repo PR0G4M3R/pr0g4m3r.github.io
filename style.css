@@ -155,7 +155,7 @@ h4 {
   
   .cell-2{
     display: flex;
-    justify-content: left;
+    justify-content: fit; /*Was left*/
   }
   
   .cell-3{
