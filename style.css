@@ -31,15 +31,14 @@ html {
 .title1 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
-    text-align: top, center;
-  justify-content: left;
+    text-align: top, left;
+ 
   }
 
 .title2 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
-    text-align: top, center;
-  justify-content: right;
+    text-align: top, right;
   }
 
 .logo {
@@ -121,15 +120,15 @@ table {
 @media screen and (max-width: 825px) {
   
 .title1 {
-justify-content: top;
+text-align: top, center;
   }
   
 .title2 {
-justify-content: bottom;
+text-align: bottom, center;
   }
   
 table {
-  text-align: left;
+  text-align: center;
   align-content: left;
 }
 
