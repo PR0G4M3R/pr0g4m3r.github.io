@@ -104,8 +104,8 @@ table {
   text-align: center;
   align-content: center;
   max-width: 100%;
-  padding: 1em;
-  column-gap: 1em;
+  padding: 1rem;
+  column-gap: 2rem;
 }
 
 
