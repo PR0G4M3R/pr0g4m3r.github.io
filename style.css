@@ -54,7 +54,8 @@ html {
 
 body {
   background-color: black;
-  background-image: <width: 100vw> url("Images/IMGbackground.jpeg");
+  background-image: url("Images/IMGbackground.jpeg");
+  background-width: 100vw;
   font-size: 1rem;
   margin:0;
   padding:0;
