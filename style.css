@@ -171,14 +171,6 @@ h4 {
     height: auto;
     }
   
-  .cell-5{
-    display: flex;
-    justify-content: left;
-    font-size: 1rem;
-    width: auto;
-    height: auto;
-  }
-  
   .cell-6{
     display: flex;
     justify-content: left;
@@ -266,12 +258,6 @@ h4 {
     display: flex;
     justify-content: center;
     }
-  
-  .cell-5{
-    display: flex;
-    justify-content: left;
-    font-size: 1rem;
-  }
   
   .cell-6{
     display: flex;
