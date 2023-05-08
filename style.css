@@ -155,7 +155,8 @@ h4 {
   
   .cell-2{
     display: flex;
-    justify-content: fit; /*Was left*/
+    justify-content: left;
+    padding: 0rem;
   }
   
   .cell-3{
