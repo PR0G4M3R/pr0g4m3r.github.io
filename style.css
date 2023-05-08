@@ -28,7 +28,13 @@ html {
   padding: 2rem;
 }
 
-.title {
+.title1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    text-align: top, center;
+  }
+
+.title2 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
     text-align: top, center;
