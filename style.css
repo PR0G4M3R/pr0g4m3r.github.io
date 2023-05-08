@@ -32,12 +32,14 @@ html {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
     text-align: top, center;
+  justify-content: left;
   }
 
 .title2 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
     text-align: top, center;
+  justify-content: right;
   }
 
 .logo {
@@ -117,6 +119,14 @@ table {
 
 /*IPHONE SE*/
 @media screen and (max-width: 825px) {
+  
+.title1 {
+justify-content: top;
+  }
+  
+.title2 {
+justify-content: bottom;
+  }
   
 table {
   text-align: left;
