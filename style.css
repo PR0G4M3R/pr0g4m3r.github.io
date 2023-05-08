@@ -11,6 +11,7 @@ html {
 
 .container {
   margin: 2rem;
+  margin-bottom: 0rem;
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 1rem;
