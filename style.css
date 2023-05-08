@@ -169,7 +169,7 @@ h4 {
   
   .cell-4{
     display: flex;
-    justify-content: left;
+    justify-content: top;
     width: auto;
     height: auto;
     }
