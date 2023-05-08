@@ -182,7 +182,6 @@ h4 {
   .cell-6{
     display: flex;
     justify-content: left;
-    font-size: 1rem;
     width: auto;
     height: auto;
   }
