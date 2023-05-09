@@ -175,6 +175,19 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 0rem;
+    
+    .title1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    text-align: top, left;
+ 
+  }
+
+.title2 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    text-align: top, right;
+  }
   }
   
   .cell-3{
