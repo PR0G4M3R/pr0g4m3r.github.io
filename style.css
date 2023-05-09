@@ -31,14 +31,16 @@ html {
 .title1 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
-    text-align: top, left;
+    display: flex;
+    justify-content: center;
  
   }
 
 .title2 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
-    text-align: top, right;
+    display: flex;
+    justify-content: center;
   }
 
 .logo {
@@ -166,19 +168,6 @@ h4 {
   .cell-2{
     display: flex;
     padding: 0rem;
-    
-    .title1 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    justify-content: top, left;
- 
-  }
-
-.title2 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    justify-content: top, right;
-  }
   }
   
   .cell-3{
