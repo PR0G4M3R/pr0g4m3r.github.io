@@ -27,7 +27,8 @@ html {
   text-align: center;
   padding: 2rem;
 }
-
+ .cell-2{
+  
 .title1 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
@@ -42,6 +43,7 @@ html {
     display: flex;
     justify-content: center;
   }
+}
 
 .logo {
   max-width: 40%;
