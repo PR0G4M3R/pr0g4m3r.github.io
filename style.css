@@ -13,7 +13,16 @@ html {
   margin: 2rem;
   margin-bottom: 0rem;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-areas: 
+  'cell-1 cell-2 cell-2' 
+  'cell-1 cell-2 cell-2'
+  'cell-3 cell-3 cell-3'
+  'cell-4 cell-4 cell-4'
+  'cell-5 cell-5 cell-5'
+  'cell-6 cell-6 cell-6'
+  'cell-7 cell-7 cell-7'
+  'cell-8 cell-8 cell-8';
+  
   gap: 1rem;
   max-width: 100%;
   overflow-x: hidden;
@@ -24,38 +33,26 @@ html {
   color: white;
   font-size: 3rem;
   text-align: center;
-  padding: 2rem;
-}
+  padding: 2rem;}
 
-.cell-1{
+ .cell-1{
   display: flex;
   justify-content: left;
-}
+ }
 
-.cell-2{
+ .cell-2{
   display: flex;
   justify-content: center;
-}
+  flex-wrap: wrap;
+  }
 
-.cell-3{
+
+ .cell-3{
   display: flex;
   justify-content: left;
-}
-  
-.title1 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
- 
-  }
+ };
 
-.title2 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-  }
+
 
 
 .logo {
@@ -186,25 +183,11 @@ h4 {
   
   .cell-2{
     display: flex;
+    flex-wrap: nowrap;
   }
 
-   .title1 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem;
- 
-    }
-
-    .title2 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem;
-    }
   
+    
   .cell-3{
     display: flex;
     justify-content: left;
