@@ -20,12 +20,26 @@ html {
 }
 
 
-
 .cell {
   color: white;
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
+}
+
+.cell-1{
+  display: flex;
+  justify-content: left;
+}
+
+.cell-2{
+  display: flex;
+  justify-content: center;
+}
+
+.cell-3{
+  display: flex;
+  justify-content: left;
 }
   
 .title1 {
@@ -119,6 +133,10 @@ table {
 }
 
 
+
+
+
+
 /*IPHONE SE*/
 @media screen and (max-width: 825px) {
   
@@ -168,7 +186,8 @@ h4 {
   
   .cell-2{
     display: flex;
-  
+  }
+
    .title1 {
     font-family: 'Lucida Sans', Verdana, sans-serif;
     color: #fff;
@@ -185,8 +204,6 @@ h4 {
     justify-content: center;
     padding: 0.5rem;
     }
-   
- }
   
   .cell-3{
     display: flex;
@@ -219,7 +236,7 @@ h4 {
     font-size: 1rem;
   }
   
-.footer:{
+.footer{
   font-size: 1rem;
   justify-content: center;
   }
