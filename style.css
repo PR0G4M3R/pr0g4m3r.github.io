@@ -14,15 +14,15 @@ html {
   margin-bottom: 0rem;
   display: grid;
   grid-template-areas: 
-  'cell-1 cell-2 cell-2' 
-  'cell-1 cell-2 cell-2'
-  'cell-3 cell-3 cell-3'
-  'cell-4 cell-4 cell-4'
-  'cell-5 cell-5 cell-5'
-  'cell-6 cell-6 cell-6'
-  'cell-7 cell-7 cell-7'
-  'cell-8 cell-8 cell-8';
-  
+  'cell-1 cell-2' 
+  'cell-1 cell-2'
+  'cell-3 cell-3'
+  'cell-4 cell-4'
+  'cell-5 cell-5'
+  'cell-6 cell-6'
+  'cell-7 cell-7'
+  'cell-8 cell-8';
+
   gap: 1rem;
   max-width: 100%;
   overflow-x: hidden;
