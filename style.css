@@ -13,16 +13,7 @@ html {
   margin: 2rem;
   margin-bottom: 0rem;
   display: grid;
-  grid-template-areas: 
-  'cell-1 cell-2' 
-  'cell-1 cell-2'
-  'cell-3 cell-3'
-  'cell-4 cell-4'
-  'cell-5 cell-5'
-  'cell-6 cell-6'
-  'cell-7 cell-7'
-  'cell-8 cell-8';
-
+  grid-template-columns: 1fr 4fr;
   gap: 1rem;
   max-width: 100%;
   overflow-x: hidden;
@@ -40,17 +31,48 @@ html {
   justify-content: left;
  }
 
- .cell-2{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+ .title1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
 
+  .title2 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  };
 
+    
  .cell-3{
   display: flex;
-  justify-content: left;
- };
+  justify-content: center;
+}
+
+.cell-4{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  }
+
+.cell-5{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+  
+.cell-6{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
 
 
 
@@ -181,11 +203,24 @@ h4 {
     display: flex;
   }
   
-  .cell-2{
+  .title1 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
     display: flex;
-    flex-wrap: nowrap;
-  }
+    justify-content: top;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+ 
+    }
 
+    .title2 {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: bottom;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    }
   
     
   .cell-3{
@@ -199,24 +234,19 @@ h4 {
     width: auto;
     height: auto;
     }
-  
+
+  .cell-5{
+      display: flex;
+      justify-content: center;
+      width: auto;
+      height: auto;
+  }
+    
   .cell-6{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     width: auto;
     height: auto;
-  }
-  
-  .cell-7{
-    display: flex;
-    justify-content: left;
-    font-size: 1rem;
-  }
-  
-  .cell-8{
-    display: flex;
-    justify-content: left;
-    font-size: 1rem;
   }
   
 .footer{
