@@ -45,6 +45,13 @@ html {
     margin-top: 2.5rem;
     margin-left: 7.5rem;
   }
+
+.cell-2B{
+ align-self: left;
+ width: auto;
+ height: auto;
+ margin: 0%;
+}
     
 .cell-3{
   align-self: center;
