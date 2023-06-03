@@ -1,234 +1,108 @@
-*{
+* {
   box-sizing: border-box;
   word-break: white-space;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
-
-.container {
-  margin: 0rem;
-  margin-bottom: 0rem;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 1rem;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-
-.cell {
+body{
+  background-image: url(/Images/IMGbackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+}
+
+.navbarContainer {
+  position: relative;
+}
+
+.leftLogo img,
+.rightLogo img {
+  height: 10rem;
+  position: absolute;
+  top: 0;
+}
+
+.rightLogo {
+  float: right;
+  margin-right: 10rem;
+}
+
+.navbar {
+  background-color: gray;
+  height: 5rem;
+}
+
+.navbar ul {
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  font-size: 2rem;
+  
+}
+
+.navbar ul li a:visited {
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+.navbar ul li a:active {
+  color: white;
+}
+
+.heroSection {
+  margin-top: 2rem;
+}
+
+.heroSection h1 {
   font-size: 3rem;
   text-align: center;
-  padding: 2rem;}
-
- .title1 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    margin-top: 2.5rem;
-    margin-left: 7.5rem;
-  }
-
-  .title2 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    margin-top: 2.5rem;
-    margin-left: 7.5rem;
-  }
-
-.cell-2B{
- align-self: left;
- width: auto;
- height: auto;
- margin: 0%;
-}
-    
-.cell-3{
-  align-self: center;
-  width: auto;
-  height: auto;
-  margin: 0%;
 }
 
-.cell-4{
-  align-self: center;
-  width: auto;
-  height: auto;
-  grid-column: 1 / 3;
-  }
-
-.cell-5{
-    align-self: center;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    padding-bottom: 10rem;
-    grid-column: 1 / 3;
-}
-
-.cell-1 {
-  max-width: 40%;
-  width: auto;
-  max-height: auto;
-  display: flex;
-  justify-content: left;  
-}
-
-.footer {
-  font-size: 2rem;
-  background: black;
-  color: #fff;
-  text-align: center;
-  width: 100vw;
+.projectsInfo {
+  margin-top: 4rem;
   display: grid;
-  padding: 0.25em 0;
-  position: fixed;
-  bottom: 0;
+  font-size: 2rem;
+  text-align: center;
 }
 
-body {
-  background-color: black;
-  background-image: url("Images/IMGbackground.jpeg");
-  background-size: 100vw;
-  font-size: 1rem;
-  margin:0;
-  padding:0;
-  max-width: 100vw;
+.projectsInfo a{
+  color: white;
 }
 
-
-a:link {
-  color: #ff0000;
-}
-/* selected link */
-a:active {
-  color: #ff0000;
-}
-a:hover {
-  color: #ff0000;
-}
-/* visited link */
-a:visited {
-  color: #ff0000;
+.projectDesc {
+  max-width: 30rem;
+  justify-self: center;
 }
 
-
-h1 {
-  font-size: 2.1rem;
+footer{
+  text-align: center;
+  position: absolute;
+  bottom: .75rem;
+  width: 100vw;
+  font-size: 1.75rem;
 }
-
-h2 {
- font-size: 1.9rem;
-}
-
-h3 {
- font-size: 1.6rem;
-}
-
-h4 {
- font-size: 1.4rem;
-}
-
-
-
 
 /*IPHONE SE*/
 @media screen and (max-width: 375px) {
-  
-
-h1 {
-  font-size: 1.5rem;
 }
-
-
-h2 {
-  font-size: 1.2rem;
-}
-
-h3 {
-  font-size: 0.9rem;
-}
-
-h4 {
-  font-size: 0.6rem;
-}
-
-
-.cell-1 {
-    max-width: 25%;
-    width: auto;
-    max-height: auto;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-
-.container {
-    grid-template-columns: 1fr;
-    overflow-x: hidden;
-  }
-
-.cell {
-    text-align: left;
-    padding: 1.7rem;
-  }
-  
-  .title1 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: top;
-    padding: 0.5rem;
-    flex-wrap: wrap;
- 
-    }
-
-    .title2 {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: bottom;
-    padding: 0.5rem;
-    flex-wrap: wrap;
-    }
-  
-    
-  .cell-3{
-    display: flex;
-    justify-content: center;
-    grid-column: 1 / 3;
-  }
-  
-  .cell-4{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    grid-column: 1 / 3;
-    }
-
-  .cell-5{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    grid-column: 1 / 3;
-  }
-    
-.footer{
-  font-size: 1rem;
-  }
-};
 
 /*IPHONE XR*/
 @media screen and (max-width: 414px) {
@@ -240,12 +114,11 @@ h4 {
 
 /*Surface Pro 7*/
 @media screen and (max-width: 1368px) {
-  /*No changes required*/
 }
 
 /*Nest Hub*/
 @media screen and (max-width: 1024px) {
-  /*No changes required*/
 }
 
-/* No changes needed for Ipad Air & Ipad Mini*/
+/* No changes needed for Ipad Air & Ipad Mini... 
+for now.*/
