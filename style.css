@@ -117,7 +117,7 @@ body{
 @media screen and (max-width: 428px){
   .leftLogo img,
   .rightLogo img {
-  height: 10rem;
+  height: 8rem;
   position: fixed;
   top: 0rem;
   margin-top: 0rem;
@@ -125,7 +125,7 @@ body{
 
 .rightLogo {
   float: right;
-  margin-right: 10rem;
+  margin-right: 8rem;
 }
 
 .navbar {
