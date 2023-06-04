@@ -72,6 +72,11 @@ body{
   color: white;
 }
 
+.navbar ul li a{
+  color: white;
+}
+
+
 .heroSection {
   margin-top: 2rem;
 }
@@ -105,11 +110,55 @@ body{
   color: white;
   text-align: center;
   background-color: black;
-  font-size: 2.75rem;;
+  font-size: 2.75rem;
 }
 
 /*IPHONE SE*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 428px){
+  .leftLogo img,
+  .rightLogo img {
+  height: 10rem;
+  position: fixed;
+  top: 0rem;
+  margin-top: 0rem;
+}
+
+.rightLogo {
+  float: right;
+  margin-right: 10rem;
+}
+
+.navbar {
+  height: 5rem;
+}
+  
+  .navbar ul {
+    flex-grow: 1;
+    padding: 0;
+    margin-top: 10rem;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+
+  .navbar ul li {
+    font-size: 1.6rem;
+    
+  }
+  
+  .heroSection h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+body{
+  background-repeat: repeat;
+}
+
 }
 
 /*IPHONE XR*/
