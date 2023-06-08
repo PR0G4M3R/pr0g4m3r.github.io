@@ -177,5 +177,10 @@ body{
 @media screen and (max-width: 1024px) {
 }
 
-/* No changes needed for Ipad Air & Ipad Mini... 
-for now.*/
+/*PC's that are built dif*/
+@media screen and (max-width: 500px) {
+    body{
+    background-repeat: repeat;
+  }
+  
+}
