@@ -178,7 +178,7 @@ body{
 }
 
 /*PC's that are built dif*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1152px) {
     body{
     background-repeat: repeat;
   }
