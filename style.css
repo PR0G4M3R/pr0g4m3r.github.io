@@ -61,7 +61,7 @@ body{
 }
 
 .navbar ul li a:hover {
-  color: white;
+  color: rgb(8, 146, 156);
 }
 
 .navbar ul li a:active {
