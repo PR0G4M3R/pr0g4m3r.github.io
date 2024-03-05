@@ -22,7 +22,6 @@ body{
   position: relative;
 }
 
-.leftLogo img,
 .rightLogo img {
   height: 10rem;
   position: absolute;
@@ -86,22 +85,6 @@ body{
   text-align: center;
 }
 
-.projectsInfo {
-  margin-top: 4rem;
-  display: grid;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.projectsInfo a{
-  color: white;
-}
-
-.projectDesc {
-  max-width: 30rem;
-  justify-self: center;
-}
-
 .footer{
   position: fixed;
   left: 0;
@@ -115,7 +98,6 @@ body{
 
 /*IPHONE SE*/
 @media screen and (max-width: 428px){
-  .leftLogo img,
   .rightLogo img {
   height: 8rem;
   position: fixed;
@@ -158,23 +140,6 @@ body{
 body{
   background-repeat: repeat;
 }
-
-}
-
-/*IPHONE XR*/
-@media screen and (max-width: 414px) {
-}
-
-/*IPHONE 12 Pro*/
-@media screen and (max-width: 390px) {
-}
-
-/*Surface Pro 7*/
-@media screen and (max-width: 1368px) {
-}
-
-/*Nest Hub*/
-@media screen and (max-width: 1024px) {
 }
 
 /*PC's that are built dif*/
