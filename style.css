@@ -99,3 +99,16 @@ h1{
 p{
   font-size: 2vw;
 }
+
+
+
+@media only screen and (min-width: 428px) and (max-width: 767px) {
+  body{
+    /*display: flex;*/
+    margin: 0;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 10vw;
+    background-image: none;
+}
+}
