@@ -104,7 +104,7 @@ p{
 
 @media only screen and (min-width: 428px) and (max-width: 767px) {
   body{
-    /*display: flex;*/
+    display: grid;
     margin: 0;
     background-repeat: none;
     background-size: cover;
