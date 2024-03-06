@@ -1,34 +1,99 @@
-.navbarContainer{
+.navbarContainer {
+  width: 100vw;
   display: flex;
+  margin-top: 0vw;
+  justify-content: space-between;
+  align-items: center;
+  top: 0vw;
+  left: 0vw;  
 }
 
-.navbar{
+
+.navbar {
   display: flex;
-  max-height: 6vw;
+  align-items: center;
+  font-size: 4vw;
+  justify-content: center;
 }
 
-.Logo{
+.navbar ul{
+  list-style: none;
   display: flex;
   max-height: 6vw;
-  max-width: 6vw;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-right: 10vw; /* Add spacing between navbar items */
+  justify-content: center;
+}
+
+
+.navbar ul li a{
+ color: white;
+ text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.Logo img{
+  margin: 0;
+  max-height: 10vw;
+  max-width: 10vw;
+  /*height: 12vw;
+  width: auto;*/
+  pointer-events: none; /* Prevent pointer events on the logo */
+  cursor: default; /* Set cursor to default */
+  margin-right: 8vw;
 }
 
 .display{
   display: flex;
+  margin-top: 0vw;
+  justify-content: center;
 }
 
 .contactsInfo{
   display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-size: 3vw;
+}
+
+.contactsInfo ul{
+  list-style: none;
+  max-height: 6vw;
+}
+
+.contactsInfo ul li a{
+ color: white;
+ text-decoration: none;
+}
+
+.contactsInfo ul li a:hover{
+  color: blue;
+  text-decoration: none;
 }
 
 body{
-  display: flex;
-  background-repeat: no-repeat;
+  /*display: flex;*/
+  margin: 0;
+  background-repeat: none;
   background-size: cover;
+  margin-bottom: 10vw;
+  background-image: url(/Images/bground.avif);
+  
 }
 
 h1{
-  font-size: 8vw;
+  font-size: 4vw;
+  text-align: center;
 }
 
 p{
