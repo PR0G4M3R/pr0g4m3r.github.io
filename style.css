@@ -4,10 +4,13 @@
 
 .navbar{
   display: flex;
+  max-height: 6vw;
 }
 
 .Logo{
   display: flex;
+  max-height: 6vw;
+  max-width: 6vw;
 }
 
 .display{
