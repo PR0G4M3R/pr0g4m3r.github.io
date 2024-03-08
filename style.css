@@ -66,19 +66,22 @@
 }
 
 
-.gameslisttop{
-  display: flex;
- justify-content: center;
- font-size: 2.5vw;
-}
-
-.gameslist{
+.gameslist {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-self: center;
+  align-items: center;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 2.5vw;
+}
+
+.gameslist ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally within the list */
   list-style: none;
-  font-size: 2vw;
+  padding: 0; /* Remove default padding for the list */
 }
 
 .contactsInfo{
