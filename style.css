@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+  text-align: center;
 }
 
 .navbar ul li {
@@ -58,12 +59,35 @@
   justify-content: center;
 }
 
-.contactsInfo{
+.aboutme{
+  justify-content: center;
+  font-size: 2.5vw;
+  max-width: 75vw;
+}
+
+
+.gameslisttop{
   display: flex;
+ justify-content: center;
+ font-size: 2.5vw;
+}
+
+.gameslist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  list-style: none;
+  font-size: 2vw;
+}
+
+.contactsInfo{
+  /*display: flex;*/
   justify-content: center;
   text-align: center;
   margin: 0;
   font-size: 3vw;
+  color: white;
 }
 
 .contactsInfo ul{
@@ -88,6 +112,7 @@ body{
   background-size: cover;
   margin-bottom: 10vw;
   background-image: url(/Images/bground.png);
+  color: white;
   
 }
 
@@ -96,19 +121,19 @@ h1{
   text-align: center;
 }
 
-p{
-  font-size: 2vw;
-}
 
 
 
-@media only screen and (min-width: 428px) and (max-width: 767px) {
+@media (max-width: 600px) {
   body{
-    display: grid;
     margin: 0;
     background-repeat: none;
     background-size: cover;
     margin-bottom: 10vw;
     background-image: none;
+    background-color: black;
+    color: white;
 }
 }
+
+/*change max width
