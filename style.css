@@ -6,6 +6,7 @@
   align-items: center;
   top: 0vw;
   left: 0vw;  
+  overflow-x: hidden;
 }
 
 
@@ -23,12 +24,19 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+<<<<<<< HEAD
   text-align: center;
+  overflow-x: hidden;
+=======
+  text-align: center;
+>>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
 }
 
 .navbar ul li {
-  margin-right: 10vw; /* Add spacing between navbar items */
+  margin-left: 0vw;
+  margin-right: 5.5vw; /* Add spacing between navbar items */
   justify-content: center;
+  overflow-x: hidden;
 }
 
 
@@ -50,7 +58,7 @@
   width: auto;*/
   pointer-events: none; /* Prevent pointer events on the logo */
   cursor: default; /* Set cursor to default */
-  margin-right: 8vw;
+  margin-right: 6.5vw;
 }
 
 .display{
@@ -115,7 +123,12 @@ body{
   background-size: cover;
   margin-bottom: 10vw;
   background-image: url(/Images/bground.png);
+<<<<<<< HEAD
   color: white;
+  overflow-x: hidden;
+=======
+  color: white;
+>>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
   
 }
 
@@ -124,10 +137,97 @@ h1{
   text-align: center;
 }
 
+<<<<<<< HEAD
 
+.gearcontents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+=======
+>>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
+
+.gearcontents > div {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.gearcontents img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  display: block; /* Make images block-level */
+  margin: 0 auto; /* Center images horizontally */
+}
+
+<<<<<<< HEAD
+.headphones img{
+  margin: 0;
+  max-height: 10vw;
+  max-width: 10vw;
+  /*height: 12vw;
+  width: auto;*/
+  margin-right: 6.5vw;
+}
+
+.keyboard img{
+  margin: 0;
+  max-height: 10vw;
+  max-width: 15vw;
+  /*height: 12vw;
+  width: auto;*/
+  margin-right: 6.5vw;
+}
+
+.mouse img{
+  margin: 0;
+  max-height: 10vw;
+  max-width: 10vw;
+  /*height: 12vw;
+  width: auto;*/
+  margin-right: 6.5vw;
+}
+
+.headphones a{
+  display: block;
+  margin-top: 10px; /* Adjust as needed */
+  color: white;
+  text-decoration: none;
+ }
+ 
+ .headphones a:hover{
+   color: blue;
+   text-decoration: none;
+ }
+
+ .keyboard a{
+  display: block;
+  margin-top: 10px; /* Adjust as needed */
+  color: white;
+  text-decoration: none;
+ }
+ 
+ .keyboard a:hover{
+   color: blue;
+   text-decoration: none;
+ }
+
+ .mouse a{
+  display: block;
+  margin-top: 10px; /* Adjust as needed */
+  color: white;
+  text-decoration: none;
+ }
+ 
+ .mouse a:hover{
+   color: blue;
+   text-decoration: none;
+ }
 
 
 @media (max-width: 600px) {
+=======
+@media (max-width: 600px) {
+>>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
   body{
     margin: 0;
     background-repeat: none;
