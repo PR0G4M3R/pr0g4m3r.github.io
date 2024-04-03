@@ -24,12 +24,8 @@
   align-items: center;
   justify-content: center;
   margin: 0;
-<<<<<<< HEAD
   text-align: center;
   overflow-x: hidden;
-=======
-  text-align: center;
->>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
 }
 
 .navbar ul li {
@@ -123,12 +119,8 @@ body{
   background-size: cover;
   margin-bottom: 10vw;
   background-image: url(/Images/bground.png);
-<<<<<<< HEAD
   color: white;
   overflow-x: hidden;
-=======
-  color: white;
->>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
   
 }
 
@@ -137,7 +129,6 @@ h1{
   text-align: center;
 }
 
-<<<<<<< HEAD
 
 .gearcontents {
   display: flex;
@@ -145,8 +136,6 @@ h1{
   align-items: center;
   text-align: center;
 }
-=======
->>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
 
 .gearcontents > div {
   text-align: center;
@@ -159,7 +148,6 @@ h1{
   margin: 0 auto; /* Center images horizontally */
 }
 
-<<<<<<< HEAD
 .headphones img{
   margin: 0;
   max-height: 10vw;
@@ -225,9 +213,6 @@ h1{
 
 
 @media (max-width: 600px) {
-=======
-@media (max-width: 600px) {
->>>>>>> 785eb7d2424d567cc92ebe8941e0e8fbf56127b2
   body{
     margin: 0;
     background-repeat: none;
